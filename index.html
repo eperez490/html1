@@ -19,12 +19,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-	footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
 article {
   float: left;
   padding: 20px;
@@ -32,6 +26,18 @@ article {
   background-color: #f1f1f1;
   height: 300px; 
 }
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
 </style>
 
 <body>
